@@ -1,6 +1,9 @@
 from math import pi
-def aireDisque(r):
-    return pi * r ** 2
 
-def aireDisqueWithUnit(r, unit):
-    return str(aireDisque(r)) + unit + "²"
+def airedisque(rayon):
+    return pi * rayon ** 2.0
+
+def aireDisqueWithUnit(rayon, unit):
+    print(airedisque(rayon), unit + "²")
+
+aireDisqueWithUnit(2.5, 'cm')
